@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Renacer</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="encabezadoinicio">
+    <img src="./imagenes/encabezado inicio.jpeg" width="300">
+  </header>
+
+  <div class="barrainicio">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-0 mb-0 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="interes.html">Datos de interes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Se modifica barra colocando nombre a las pestañas y se elimina form,también se da una clase para modificar formato-->
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-9">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/slide1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>ACOMPAÑARTE</h5>
+                  <p>Es un proceso de autoconocimiento y despertar de la consciencia donde vos sos el reador de tu
+                    propio camino</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/slide2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>BRINDARTE</h5>
+                  <p>Una nueva mirada, herramientas y mi experiencia para que puedas desplegar tus propios recursos
+                    internos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/slide3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>ESCUCHARTE</h5>
+                  <p>Es un espacio construido desde la compasión pararesignificar tu historia y mirar tu realidad desde
+                    otro enfoque</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-3">
+          <h1><i>Sobre mí...</i></h1>
+          <img src="./imagenes/noe.jpeg" class="card-img-top">
+          <ul class="list-group">
+            <li class="list-group-item">Consultora en bioexistencia consciente y Decodificacion Bioemocional.Humano
+              Puente.</li>
+            <li class="list-group-item">Acompañante en biodecodificación.</li>
+            <li class="list-group-item">Faciltadora en apertura de Árbol Genealógico.Método L.I.Pissanchi.</li>
+            <li class="list-group-item">Guardiana del útero Rito Munayki</li>
+            <li class="list-group-item">Licenciada y Prof. en Psicopedagogía</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--Se realiza un container en el cual se coloca un carrousel y una lista, las cuales se van modificando con el fin de lograr la estructura de pagina solicitada-->
+
+
+    <section>
+      <h1>Mis Servicios</h1>
+      <div class="row row-cols-1 row-cols-md-5 g-3">
+        <div class="col">
+          <div class="card">
+            <img src="./imagenes/acompañar.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Espacio de Acompañamiento consciente quincenal</h5>
+              <p class="card-text">Te acompaño en tu proceso personal de autoconocimiento para que puedas crear y
+                resignificar tus experiencias de vida</p>
+              <p>Este es un espacio donde te acompaño integrando diversos recursos de indagación y despertar de
+                consciencia</p>
+              <p><strong>Se agenda el pack mensual.</strong></p>
+              <p><strong>2 consultas de 1 hora cada una</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imagenes/consultas.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Consultas de Decodificación-Bioexistencia Consciente</h5>
+              <p class="card-text">Comprende el propósito de tu vida y de tus memorias familiares liberando y
+                reprogramando cada escena no resulta que hoy dan sentido a tus conflictos.</p>
+              <p>Cantidad de consultas sugeridad: 10 (min)</p>
+              <p><strong>Se agenda una consulta mensual de 2 hs</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imagenes/arbol.jpeg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Apertura de Árbol Genealógico</h5>
+              <p class="card-text">Conectamos con la información que te brinda tu sistema familiar para comprender tus
+                conflictos actuales.Podes realizar esta consulta con o sin tus datos familiares. Éste espacio está
+                pensado como una puerta de entrada a tu LUGAR en tu famili y como eso replica en tu vida</p>
+              <p><strong>Se agenda 1 única consulta de 3hs.</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Dentro de la seccion se agrega un grupo de tarjetasy se elimina una de ellas para que queden 3, posteriormente se le da formato-->
+  </main>
+  <footer class="ppinicio">
+    <nav>
+      <ul class="listappinicio">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="interes.html">Datos de interes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </nav>
+    <h6>página realizada por Barrios Analia</h6>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

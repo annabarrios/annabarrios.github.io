@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding:1px;
+}
+.encabezadoinicio{
+    width: 100%;
+    height: auto;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:initial;   
+}
+.barrainicio{
+    border-style: none;
+    background-color:mediumpurple ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ppinicio{
+    width: 100%;
+    height: auto;
+    background-color: silver;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listappinicio{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tituloint{
+    margin:3px;
+    padding: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:lightseagreen;
+}
+.barracontacto{
+    border-style: none;
+    background-color:darkmagenta ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+.tituloform{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:lightseagreen;
+    text-align: center; 
+}
